@@ -1,0 +1,16 @@
+package io.javabrains.springbootstarter.topic;
+
+import java.util.Arrays;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class TopicService {
+
+	List<Topics> topics = Arrays.asList(
+			new Topic("spring", "Spring Framewor", "Spring Framework Description"),
+			new Topic("java", "Core Java", "Core Java Description"),
+			new Topic("javascript", "Javascript", "Javascript Description")
+			);
+}
+	
